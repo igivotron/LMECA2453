@@ -1,0 +1,2 @@
+gmsh opener_unrolled -3 -format msh2 -o opener.msh
+gmsh opener2D_unrolled -2 -format msh2 -o opener_2d.msh

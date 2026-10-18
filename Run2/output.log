@@ -1,0 +1,984 @@
+ Morfeo 3.7.0.RC.23391
+
+ MeshDatabase is MAdLib 2.5.2085
+
+ Available linear solvers:
+   [x] PARDISO
+   [x] Sparskit
+
+ Available eigensolvers:
+   [x] ARPACK
+   [x] FEAST
+   [x] MKL_ExtremalEigenSolver
+
+ Running Morfeo with 6 threads
+
+
+ ----------------------------------------------------------------
+
+ [Parser infos]
+ | Input file :
+ |  "input.dat"
+ |
+ | File syntax is correct.
+ -
+   Read mesh file: /home/igor/Documents/UCL/LMECA2453/morfeo/PYMORFEODFM-1.1.512/Project/Run2/../opener_2d.msh
+ done!
+Integrator 'IntegratorBasic_Formulation' is internally created and used for 'Formulation'.
+ ** TIMER ( Initialization of SteadyComputation/Task ) : 1.071e-06
+ ** TIMER ( Initialization of SteadyComputation/SolveOptimizationProblem ) : 5.91e-07
+ ** TIMER ( Initialization of SteadyComputation ) : 4.3743e-05
+ ** TIMER ( Run of SteadyComputation/Task ) : 0.00106522
+Done initialising design variable 'DensityDesign'.
+ +------------------------------------------------------------------+
+ | Created a PDE-constrained optimization problem with:
+ |  #Optimization Variables: 1370
+ |  #Constraints: 1
+ +------------------------------------------------------------------+
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000113444
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000291842
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0365904
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0366578
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.229e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3052e-05
+Scaling objective by a factor equal to 0.000364239
+GCMMA::Iter.: 0 Compliance: 6.06781e+07 VolumeFraction: -0.3 f: 6.06781e+07 g_0: -0.3 Iter_time: 0.179225
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000194571
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000207659
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0168212
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0168544
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.466e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.491e-06
+GCMMA::Iter.: 1 Compliance: 3.8207e+07 VolumeFraction: -0.279009 f: 3.8207e+07 g_0: -0.279009 Iter_time: 0.0360865 best_iter: 1 del_x_max: 0.0429199 kkt_res_abs_error: 2512.46
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000222903
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000237075
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0192534
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0192854
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.34e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3577e-05
+GCMMA::Iter.: 2 Compliance: 2.57138e+07 VolumeFraction: -0.257278 f: 2.57138e+07 g_0: -0.257278 Iter_time: 0.034543 best_iter: 2 del_x_max: 0.0427183 kkt_res_abs_error: 1400.43
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000148924
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000187921
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0480129
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0480623
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.696e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.144e-06
+GCMMA::Iter.: 3 Compliance: 1.70506e+07 VolumeFraction: -0.230559 f: 1.70506e+07 g_0: -0.230559 Iter_time: 0.0733282 best_iter: 3 del_x_max: 0.05 kkt_res_abs_error: 679.215
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000182903
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000198716
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.03744
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0374793
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.679e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.9e-06
+GCMMA::Iter.: 4 Compliance: 1.13657e+07 VolumeFraction: -0.198482 f: 1.13657e+07 g_0: -0.198482 Iter_time: 0.0632084 best_iter: 4 del_x_max: 0.05 kkt_res_abs_error: 228.061
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000201692
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000217254
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0207758
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0210114
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.679e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 0.000122537
+GCMMA::Iter.: 5 Compliance: 7.76604e+06 VolumeFraction: -0.161769 f: 7.76604e+06 g_0: -0.161769 Iter_time: 0.0392659 best_iter: 5 del_x_max: 0.05 kkt_res_abs_error: 105.755
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000181114
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000195602
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0194595
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0195175
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.413e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3357e-05
+GCMMA::Iter.: 6 Compliance: 5.47731e+06 VolumeFraction: -0.121937 f: 5.47731e+06 g_0: -0.121937 Iter_time: 0.03596 best_iter: 6 del_x_max: 0.05 kkt_res_abs_error: 59.3288
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000172394
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000186327
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0181914
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0182382
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.676e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3268e-05
+GCMMA::Iter.: 7 Compliance: 3.98851e+06 VolumeFraction: -0.0804541 f: 3.98851e+06 g_0: -0.0804541 Iter_time: 0.0364358 best_iter: 7 del_x_max: 0.05 kkt_res_abs_error: 38.8543
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00018969
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000204641
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0275139
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0275523
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.319e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.563e-06
+GCMMA::Iter.: 8 Compliance: 2.98794e+06 VolumeFraction: -0.0378599 f: 2.98794e+06 g_0: -0.0378599 Iter_time: 0.0438082 best_iter: 8 del_x_max: 0.05 kkt_res_abs_error: 25.7143
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00016752
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000183529
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.021567
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0216125
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.406e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.2915e-05
+GCMMA::Iter.: 9 Compliance: 2.33466e+06 VolumeFraction: -0.012361 f: 2.33466e+06 g_0: -0.012361 Iter_time: 0.0375402 best_iter: 9 del_x_max: 0.05 kkt_res_abs_error: 15.2919
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00019092
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000205705
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0183861
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0184156
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.284e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.096e-06
+GCMMA::Iter.: 10 Compliance: 1.94207e+06 VolumeFraction: -0.00735549 f: 1.94207e+06 g_0: -0.00735549 Iter_time: 0.036286 best_iter: 10 del_x_max: 0.05 kkt_res_abs_error: 10.0533
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000201745
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000365269
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0196498
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0196819
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.202e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.318e-06
+GCMMA::Iter.: 11 Compliance: 1.66612e+06 VolumeFraction: -0.00600799 f: 1.66612e+06 g_0: -0.00600799 Iter_time: 0.0364803 best_iter: 11 del_x_max: 0.05 kkt_res_abs_error: 7.68926
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000193303
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000221542
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0184979
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0185422
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.346e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3224e-05
+GCMMA::Iter.: 12 Compliance: 1.4531e+06 VolumeFraction: -0.00522051 f: 1.4531e+06 g_0: -0.00522051 Iter_time: 0.0337668 best_iter: 12 del_x_max: 0.05 kkt_res_abs_error: 5.30732
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00021409
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000264257
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.037722
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0377549
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.85e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.6643e-05
+GCMMA::Iter.: 13 Compliance: 1.28741e+06 VolumeFraction: -0.00405126 f: 1.28741e+06 g_0: -0.00405126 Iter_time: 0.0596463 best_iter: 13 del_x_max: 0.05 kkt_res_abs_error: 3.7227
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00013813
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000152027
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0352009
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0352297
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.328e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.202e-06
+GCMMA::Iter.: 14 Compliance: 1.16333e+06 VolumeFraction: -0.003008 f: 1.16333e+06 g_0: -0.003008 Iter_time: 0.061126 best_iter: 14 del_x_max: 0.05 kkt_res_abs_error: 3.79012
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000181979
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000333196
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0191924
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0192238
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.208e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 0.000113129
+GCMMA::Iter.: 15 Compliance: 1.06569e+06 VolumeFraction: -0.00242546 f: 1.06569e+06 g_0: -0.00242546 Iter_time: 0.0372548 best_iter: 15 del_x_max: 0.05 kkt_res_abs_error: 3.54635
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000188435
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00022227
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0185111
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0185493
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.204e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.519e-06
+GCMMA::Iter.: 16 Compliance: 985375 VolumeFraction: -0.00199931 f: 985375 g_0: -0.00199931 Iter_time: 0.0357912 best_iter: 16 del_x_max: 0.05 kkt_res_abs_error: 2.80646
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00018003
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000196075
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0359231
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0359551
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.358e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.452e-06
+GCMMA::Iter.: 17 Compliance: 930311 VolumeFraction: -0.00150055 f: 930311 g_0: -0.00150055 Iter_time: 0.0608796 best_iter: 17 del_x_max: 0.05 kkt_res_abs_error: 2.21512
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000181638
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000196778
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0193642
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0193963
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.151e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.46e-06
+GCMMA::Iter.: 18 Compliance: 901946 VolumeFraction: -0.00114872 f: 901946 g_0: -0.00114872 Iter_time: 0.0363437 best_iter: 18 del_x_max: 0.05 kkt_res_abs_error: 1.54978
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000213632
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000279825
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0194072
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0194938
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.617e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 4.1803e-05
+GCMMA::Iter.: 19 Compliance: 880145 VolumeFraction: -0.000971441 f: 880145 g_0: -0.000971441 Iter_time: 0.0363284 best_iter: 19 del_x_max: 0.05 kkt_res_abs_error: 1.06168
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00018532
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000230563
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.07159
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0716774
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.837e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 3.6612e-05
+GCMMA::Iter.: 20 Compliance: 861366 VolumeFraction: -0.000859082 f: 861366 g_0: -0.000859082 Iter_time: 0.090496 best_iter: 20 del_x_max: 0.05 kkt_res_abs_error: 1.0024
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.0001422
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000155166
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0209491
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0210358
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.783e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 3.5583e-05
+GCMMA::Iter.: 21 Compliance: 844267 VolumeFraction: -0.000795055 f: 844267 g_0: -0.000795055 Iter_time: 0.0443165 best_iter: 21 del_x_max: 0.05 kkt_res_abs_error: 1.1002
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000224362
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000280762
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0183531
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0184483
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.889e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 3.5813e-05
+GCMMA::Iter.: 22 Compliance: 828820 VolumeFraction: -0.000762432 f: 828820 g_0: -0.000762432 Iter_time: 0.0357863 best_iter: 22 del_x_max: 0.05 kkt_res_abs_error: 1.06266
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000132374
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000145732
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0304852
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0305825
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.991e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 3.5756e-05
+GCMMA::Iter.: 23 Compliance: 814790 VolumeFraction: -0.000764847 f: 814790 g_0: -0.000764847 Iter_time: 0.054237 best_iter: 23 del_x_max: 0.05 kkt_res_abs_error: 0.931505
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000135037
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000149013
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0211794
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0212528
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.471e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 2.277e-05
+GCMMA::Iter.: 24 Compliance: 801075 VolumeFraction: -0.000797221 f: 801075 g_0: -0.000797221 Iter_time: 0.0392961 best_iter: 24 del_x_max: 0.05 kkt_res_abs_error: 0.821386
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000164108
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000175847
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0214614
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0215483
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.839e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 3.5083e-05
+GCMMA::Iter.: 25 Compliance: 788227 VolumeFraction: -0.000783557 f: 788227 g_0: -0.000783557 Iter_time: 0.0379184 best_iter: 25 del_x_max: 0.05 kkt_res_abs_error: 0.797759
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00017714
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000189807
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0194401
+ ** TIMER ( Run of SteadyStateProblems ) : 0.019472
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.393e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.756e-06
+GCMMA::Iter.: 26 Compliance: 776128 VolumeFraction: -0.000776018 f: 776128 g_0: -0.000776018 Iter_time: 0.0390721 best_iter: 26 del_x_max: 0.05 kkt_res_abs_error: 0.713772
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000179851
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000193238
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0180761
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0183062
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.51e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 0.000125816
+GCMMA::Iter.: 27 Compliance: 764893 VolumeFraction: -0.000731219 f: 764893 g_0: -0.000731219 Iter_time: 0.036642 best_iter: 27 del_x_max: 0.05 kkt_res_abs_error: 0.641818
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000190754
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00028602
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0188488
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0188802
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.178e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.097e-06
+GCMMA::Iter.: 28 Compliance: 754604 VolumeFraction: -0.000688781 f: 754604 g_0: -0.000688781 Iter_time: 0.0348146 best_iter: 28 del_x_max: 0.05 kkt_res_abs_error: 0.702888
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000186956
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000317665
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0195847
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0197522
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.328e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.649e-06
+GCMMA::Iter.: 29 Compliance: 744864 VolumeFraction: -0.000673658 f: 744864 g_0: -0.000673658 Iter_time: 0.0381388 best_iter: 29 del_x_max: 0.05 kkt_res_abs_error: 0.720509
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00016765
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000182154
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0197105
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0197427
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.556e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.659e-06
+GCMMA::Iter.: 30 Compliance: 735757 VolumeFraction: -0.000645035 f: 735757 g_0: -0.000645035 Iter_time: 0.036221 best_iter: 30 del_x_max: 0.05 kkt_res_abs_error: 0.766559
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000183275
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000196551
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0174814
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0175141
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.363e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.328e-06
+GCMMA::Iter.: 31 Compliance: 727861 VolumeFraction: -0.00058279 f: 727861 g_0: -0.00058279 Iter_time: 0.0341661 best_iter: 31 del_x_max: 0.05 kkt_res_abs_error: 0.765904
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000230497
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000287438
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0190587
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0190911
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.364e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.062e-06
+GCMMA::Iter.: 32 Compliance: 721452 VolumeFraction: -0.000511864 f: 721452 g_0: -0.000511864 Iter_time: 0.0356594 best_iter: 32 del_x_max: 0.05 kkt_res_abs_error: 0.568367
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000159521
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000174232
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0193362
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0193665
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.256e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.056e-06
+GCMMA::Iter.: 33 Compliance: 716003 VolumeFraction: -0.000463704 f: 716003 g_0: -0.000463704 Iter_time: 0.0343853 best_iter: 33 del_x_max: 0.05 kkt_res_abs_error: 0.52352
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000189796
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00020247
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0267766
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0268077
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.233e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.407e-06
+GCMMA::Iter.: 34 Compliance: 711410 VolumeFraction: -0.000416804 f: 711410 g_0: -0.000416804 Iter_time: 0.0413921 best_iter: 34 del_x_max: 0.05 kkt_res_abs_error: 0.539904
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000186096
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000199568
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0307121
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0307447
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.329e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.33e-06
+GCMMA::Iter.: 35 Compliance: 707255 VolumeFraction: -0.000390917 f: 707255 g_0: -0.000390917 Iter_time: 0.0588872 best_iter: 35 del_x_max: 0.05 kkt_res_abs_error: 0.462621
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000126792
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000142028
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0235713
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0236043
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.327e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.306e-06
+GCMMA::Iter.: 36 Compliance: 703676 VolumeFraction: -0.000335719 f: 703676 g_0: -0.000335719 Iter_time: 0.0393089 best_iter: 36 del_x_max: 0.05 kkt_res_abs_error: 0.404665
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000139006
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000151325
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0187485
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0187796
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.722e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.031e-06
+GCMMA::Iter.: 37 Compliance: 700747 VolumeFraction: -0.000269715 f: 700747 g_0: -0.000269715 Iter_time: 0.0335615 best_iter: 37 del_x_max: 0.05 kkt_res_abs_error: 0.392118
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000195086
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000210074
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0299297
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0299613
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.326e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.434e-06
+GCMMA::Iter.: 38 Compliance: 698161 VolumeFraction: -0.000242555 f: 698161 g_0: -0.000242555 Iter_time: 0.059789 best_iter: 38 del_x_max: 0.05 kkt_res_abs_error: 0.379944
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000161243
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000173813
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0216566
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0216886
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.27e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.301e-06
+GCMMA::Iter.: 39 Compliance: 695781 VolumeFraction: -0.000216626 f: 695781 g_0: -0.000216626 Iter_time: 0.0392314 best_iter: 39 del_x_max: 0.05 kkt_res_abs_error: 0.429734
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000179079
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000191988
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0204328
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0204644
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.344e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.941e-06
+GCMMA::Iter.: 40 Compliance: 693864 VolumeFraction: -0.000177256 f: 693864 g_0: -0.000177256 Iter_time: 0.0371712 best_iter: 40 del_x_max: 0.05 kkt_res_abs_error: 0.339198
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000225942
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000243627
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.027236
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0272681
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.302e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.465e-06
+GCMMA::Iter.: 41 Compliance: 692324 VolumeFraction: -0.00014898 f: 692324 g_0: -0.00014898 Iter_time: 0.0426912 best_iter: 41 del_x_max: 0.05 kkt_res_abs_error: 0.343061
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000137537
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000150621
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0226691
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0227011
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.489e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.626e-06
+GCMMA::Iter.: 42 Compliance: 691014 VolumeFraction: -0.000126388 f: 691014 g_0: -0.000126388 Iter_time: 0.0518048 best_iter: 42 del_x_max: 0.05 kkt_res_abs_error: 0.331308
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000202818
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000215199
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0498166
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0498511
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.523e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3597e-05
+GCMMA::Iter.: 43 Compliance: 689986 VolumeFraction: -0.000101159 f: 689986 g_0: -0.000101159 Iter_time: 0.0686304 best_iter: 43 del_x_max: 0.05 kkt_res_abs_error: 0.316964
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000176016
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000191113
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0239871
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0240205
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.553e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3588e-05
+GCMMA::Iter.: 44 Compliance: 689078 VolumeFraction: -9.20706e-05 f: 689078 g_0: -9.20706e-05 Iter_time: 0.0405198 best_iter: 44 del_x_max: 0.05 kkt_res_abs_error: 0.291313
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000128441
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000142199
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0230309
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0230658
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.284e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.645e-06
+GCMMA::Iter.: 45 Compliance: 688350 VolumeFraction: -7.43498e-05 f: 688350 g_0: -7.43498e-05 Iter_time: 0.0397685 best_iter: 45 del_x_max: 0.05 kkt_res_abs_error: 0.284201
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000147178
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000161177
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0211467
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0211783
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.353e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.624e-06
+GCMMA::Iter.: 46 Compliance: 687872 VolumeFraction: -5.05178e-05 f: 687872 g_0: -5.05178e-05 Iter_time: 0.0380773 best_iter: 46 del_x_max: 0.05 kkt_res_abs_error: 0.260758
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000193411
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000203901
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0174785
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0175097
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.16e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.418e-06
+GCMMA::Iter.: 47 Compliance: 687521 VolumeFraction: -4.25172e-05 f: 687521 g_0: -4.25172e-05 Iter_time: 0.033152 best_iter: 47 del_x_max: 0.05 kkt_res_abs_error: 0.256187
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000197493
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000211685
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.018552
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0185841
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.731e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.986e-06
+GCMMA::Iter.: 48 Compliance: 687190 VolumeFraction: -4.14602e-05 f: 687190 g_0: -4.14602e-05 Iter_time: 0.0341736 best_iter: 48 del_x_max: 0.05 kkt_res_abs_error: 0.262564
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000131726
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00014781
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0185146
+ ** TIMER ( Run of SteadyStateProblems ) : 0.018545
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.372e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.507e-06
+GCMMA::Iter.: 49 Compliance: 686837 VolumeFraction: -4.62587e-05 f: 686837 g_0: -4.62587e-05 Iter_time: 0.0329793 best_iter: 49 del_x_max: 0.05 kkt_res_abs_error: 0.267951
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00020212
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00022186
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0183262
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0183882
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.443e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3266e-05
+GCMMA::Iter.: 50 Compliance: 686462 VolumeFraction: -4.79013e-05 f: 686462 g_0: -4.79013e-05 Iter_time: 0.0342342 best_iter: 50 del_x_max: 0.05 kkt_res_abs_error: 0.281284
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000156716
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000182084
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0194153
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0194609
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.261e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3294e-05
+GCMMA::Iter.: 51 Compliance: 686057 VolumeFraction: -5.17252e-05 f: 686057 g_0: -5.17252e-05 Iter_time: 0.0337781 best_iter: 51 del_x_max: 0.05 kkt_res_abs_error: 0.2785
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000190596
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000216479
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0180695
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0181137
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.836e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.3451e-05
+GCMMA::Iter.: 52 Compliance: 685653 VolumeFraction: -4.9388e-05 f: 685653 g_0: -4.9388e-05 Iter_time: 0.0344705 best_iter: 52 del_x_max: 0.05 kkt_res_abs_error: 0.267527
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000161228
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000176383
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0179319
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0179925
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.402e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 1.2784e-05
+GCMMA::Iter.: 53 Compliance: 685248 VolumeFraction: -4.80089e-05 f: 685248 g_0: -4.80089e-05 Iter_time: 0.0380133 best_iter: 53 del_x_max: 0.05 kkt_res_abs_error: 0.287827
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00013391
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00016709
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0323348
+ ** TIMER ( Run of SteadyStateProblems ) : 0.032369
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.363e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.349e-06
+GCMMA::Iter.: 54 Compliance: 684909 VolumeFraction: -4.11556e-05 f: 684909 g_0: -4.11556e-05 Iter_time: 0.0601667 best_iter: 54 del_x_max: 0.05 kkt_res_abs_error: 0.286931
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000185589
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000198655
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0188015
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0190458
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.688e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 0.000132084
+GCMMA::Iter.: 55 Compliance: 684568 VolumeFraction: -4.19072e-05 f: 684568 g_0: -4.19072e-05 Iter_time: 0.035557 best_iter: 55 del_x_max: 0.05 kkt_res_abs_error: 0.281379
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000138099
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000151029
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0344898
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0345189
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.302e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.384e-06
+GCMMA::Iter.: 56 Compliance: 684216 VolumeFraction: -4.25049e-05 f: 684216 g_0: -4.25049e-05 Iter_time: 0.0612451 best_iter: 56 del_x_max: 0.05 kkt_res_abs_error: 0.272255
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000184694
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00019775
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0248709
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0249035
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.45e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.152e-06
+GCMMA::Iter.: 57 Compliance: 683870 VolumeFraction: -4.09373e-05 f: 683870 g_0: -4.09373e-05 Iter_time: 0.0422253 best_iter: 57 del_x_max: 0.05 kkt_res_abs_error: 0.255811
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000156746
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000169672
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0311458
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0311826
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.19e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.878e-06
+GCMMA::Iter.: 58 Compliance: 683595 VolumeFraction: -3.52532e-05 f: 683595 g_0: -3.52532e-05 Iter_time: 0.0631304 best_iter: 58 del_x_max: 0.05 kkt_res_abs_error: 0.227023
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000189498
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000203507
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0174621
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0174942
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.426e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.185e-06
+GCMMA::Iter.: 59 Compliance: 683351 VolumeFraction: -3.15288e-05 f: 683351 g_0: -3.15288e-05 Iter_time: 0.0346364 best_iter: 59 del_x_max: 0.05 kkt_res_abs_error: 0.261441
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000174123
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000191152
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0193079
+ ** TIMER ( Run of SteadyStateProblems ) : 0.019339
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.311e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.554e-06
+GCMMA::Iter.: 60 Compliance: 683155 VolumeFraction: -2.57637e-05 f: 683155 g_0: -2.57637e-05 Iter_time: 0.0362205 best_iter: 60 del_x_max: 0.05 kkt_res_abs_error: 0.2783
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000171372
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000183879
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0200516
+ ** TIMER ( Run of SteadyStateProblems ) : 0.020082
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.406e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.535e-06
+GCMMA::Iter.: 61 Compliance: 682989 VolumeFraction: -2.09815e-05 f: 682989 g_0: -2.09815e-05 Iter_time: 0.035488 best_iter: 61 del_x_max: 0.05 kkt_res_abs_error: 0.269314
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000191153
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000206089
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0179495
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0179815
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.243e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.561e-06
+GCMMA::Iter.: 62 Compliance: 682891 VolumeFraction: -1.17062e-05 f: 682891 g_0: -1.17062e-05 Iter_time: 0.0336435 best_iter: 62 del_x_max: 0.0496723 kkt_res_abs_error: 0.19079
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00015987
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000178693
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0191329
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0191648
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.271e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.293e-06
+GCMMA::Iter.: 63 Compliance: 682850 VolumeFraction: -6.13029e-06 f: 682850 g_0: -6.13029e-06 Iter_time: 0.0350797 best_iter: 63 del_x_max: 0.0457549 kkt_res_abs_error: 0.145096
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000178021
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000193107
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0176639
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0176959
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.582e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.611e-06
+GCMMA::Iter.: 64 Compliance: 682822 VolumeFraction: -4.60084e-06 f: 682822 g_0: -4.60084e-06 Iter_time: 0.0352785 best_iter: 64 del_x_max: 0.0304128 kkt_res_abs_error: 0.139943
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000208432
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000223903
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0191679
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0191994
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.135e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.337e-06
+GCMMA::Iter.: 65 Compliance: 682801 VolumeFraction: -3.98397e-06 f: 682801 g_0: -3.98397e-06 Iter_time: 0.0350648 best_iter: 65 del_x_max: 0.0297198 kkt_res_abs_error: 0.138263
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000141617
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000153009
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0189805
+ ** TIMER ( Run of SteadyStateProblems ) : 0.019012
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.276e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.259e-06
+GCMMA::Iter.: 66 Compliance: 682781 VolumeFraction: -3.97559e-06 f: 682781 g_0: -3.97559e-06 Iter_time: 0.0337016 best_iter: 66 del_x_max: 0.0303401 kkt_res_abs_error: 0.142631
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000189722
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000201815
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0180142
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0180473
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.257e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.2e-06
+GCMMA::Iter.: 67 Compliance: 682760 VolumeFraction: -3.98139e-06 f: 682760 g_0: -3.98139e-06 Iter_time: 0.0330671 best_iter: 67 del_x_max: 0.0313016 kkt_res_abs_error: 0.148577
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000136721
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000152693
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0191001
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0191317
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.263e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.283e-06
+GCMMA::Iter.: 68 Compliance: 682740 VolumeFraction: -4.11201e-06 f: 682740 g_0: -4.11201e-06 Iter_time: 0.0342142 best_iter: 68 del_x_max: 0.0326392 kkt_res_abs_error: 0.156277
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000188749
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000200938
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0188456
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0188773
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.329e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.633e-06
+GCMMA::Iter.: 69 Compliance: 682718 VolumeFraction: -4.37324e-06 f: 682718 g_0: -4.37324e-06 Iter_time: 0.0675407 best_iter: 69 del_x_max: 0.034499 kkt_res_abs_error: 0.166416
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.0031232
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.00313758
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0254177
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0254497
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.345e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.416e-06
+GCMMA::Iter.: 70 Compliance: 682694 VolumeFraction: -4.79209e-06 f: 682694 g_0: -4.79209e-06 Iter_time: 0.0441734 best_iter: 70 del_x_max: 0.0367836 kkt_res_abs_error: 0.178271
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000133614
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000148304
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0195476
+ ** TIMER ( Run of SteadyStateProblems ) : 0.019578
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.836e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 6.704e-06
+GCMMA::Iter.: 71 Compliance: 682667 VolumeFraction: -5.43587e-06 f: 682667 g_0: -5.43587e-06 Iter_time: 0.0349086 best_iter: 71 del_x_max: 0.0398192 kkt_res_abs_error: 0.193721
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.00020087
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000216632
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0177295
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0177606
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.296e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.206e-06
+GCMMA::Iter.: 72 Compliance: 682635 VolumeFraction: -6.38912e-06 f: 682635 g_0: -6.38912e-06 Iter_time: 0.0335598 best_iter: 72 del_x_max: 0.0437815 kkt_res_abs_error: 0.213424
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000145717
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000159054
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.022125
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0221566
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.411e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.892e-06
+GCMMA::Iter.: 73 Compliance: 682598 VolumeFraction: -7.71888e-06 f: 682598 g_0: -7.71888e-06 Iter_time: 0.0382513 best_iter: 73 del_x_max: 0.0486014 kkt_res_abs_error: 0.236221
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000175507
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000189645
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0180858
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0181184
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.327e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.738e-06
+GCMMA::Iter.: 74 Compliance: 682553 VolumeFraction: -8.28248e-06 f: 682553 g_0: -8.28248e-06 Iter_time: 0.0333119 best_iter: 74 del_x_max: 0.05 kkt_res_abs_error: 0.241473
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000192375
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000204507
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0180998
+ ** TIMER ( Run of SteadyStateProblems ) : 0.018132
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.327e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.527e-06
+GCMMA::Iter.: 75 Compliance: 682503 VolumeFraction: -7.74353e-06 f: 682503 g_0: -7.74353e-06 Iter_time: 0.033893 best_iter: 75 del_x_max: 0.05 kkt_res_abs_error: 0.239013
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000152224
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000165045
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0192426
+ ** TIMER ( Run of SteadyStateProblems ) : 0.019274
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.481e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 8.048e-06
+GCMMA::Iter.: 76 Compliance: 682477 VolumeFraction: -1.89911e-06 f: 682477 g_0: -1.89911e-06 Iter_time: 0.034037 best_iter: 76 del_x_max: 0.0243976 kkt_res_abs_error: 0.0973937
+ ** TIMER ( Initialization of SteadyStateProblems/Formulation ) : 0.000190884
+ ** TIMER ( Initialization of SteadyStateProblems ) : 0.000205943
+ +------------------------------------------------------------------+
+ | Start time step number 1 in 'LinearElasticity' task 
+ |  - current time : 1; 
+ |  - dofs size             : 2740
+ +------------------------------------------------------------------+
+ ** TIMER ( Run of SteadyStateProblems/Formulation ) : 0.0171665
+ ** TIMER ( Run of SteadyStateProblems ) : 0.0171979
+ ** TIMER ( Finalization of SteadyStateProblems/Formulation ) : 1.224e-06
+ ** TIMER ( Finalization of SteadyStateProblems ) : 7.486e-06
+GCMMA::Iter.: 77 Compliance: 682470 VolumeFraction: -1.10998e-06 f: 682470 g_0: -1.10998e-06 Iter_time: 0.0325436 best_iter: 77 del_x_max: 0.0226299 kkt_res_abs_error: 0.0539493
+Mesh exported to file '"/home/igor/Documents/UCL/LMECA2453/morfeo/PYMORFEODFM-1.1.512/Project/Run2/results/OptimalMesh.msh"'
+The optimal design is exported with the mesh 'Mesh' and the design variable 'DensityDesign'.
+ ** TIMER ( Run of SteadyComputation/SolveOptimizationProblem ) : 3.56723
+ ** TIMER ( Run of SteadyComputation ) : 3.56832
+ ** TIMER ( Finalization of SteadyComputation/Task ) : 9.16e-07
+ ** TIMER ( Finalization of SteadyComputation/SolveOptimizationProblem ) : 7.78e-07
+ ** TIMER ( Finalization of SteadyComputation ) : 1.0594e-05
+ -----------------------------------------------------------------
+ Amount of memory required for this job(89534) : 909 [Mb]
+ -----------------------------------------------------------------
